@@ -1,0 +1,48 @@
+# Python derleme çıktıları
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Sanal ortamlar
+venv/
+env/
+.venv/
+
+# Ortam değişken dosyası
+.env
+
+# VS Code ayarları
+.vscode/
+
+# Jupyter otomatik dosyaları
+.ipynb_checkpoints/
+
+# Veriler ve geçici dosyalar
+data/*.csv
+data/*.json
+*.log
+*.tmp
+
+# Sistem dosyaları
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Unit test / coverage çıktıları
+htmlcov/
+.coverage
+.pytest_cache/
+.tox/
+nosetests.xml
+coverage.xml
+
+# Pip / bağımlılıklar
+*.egg-info/
+*.egg
+.eggs/
